@@ -1,0 +1,16 @@
+### model
+model_name_or_path: /data/xinbwang/CKPTS/Mistral-7B-v0.1
+adapter_name_or_path: saves/Mistral/test/
+
+### method
+finetuning_type: lora
+### dataset
+template: mistral
+
+
+### export
+export_dir: export/mistral/test
+export_size: 1
+export_device: cpu
+export_legacy_format: False
+
